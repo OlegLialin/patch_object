@@ -1,0 +1,21 @@
+{
+  "name": "patch_object",
+  "version": "1.0.0",
+  "description": "Function processOverrides(o1, o2) which takes two objects and returns new object equal to o1 patched with o2 but only for keys or key sequences given in the o1[`patchable`]. Result should not include patchable key/value pair itself.",
+  "main": "processOverrides.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "jest",
+    "unit",
+    "testing"
+  ],
+  "author": "Lialin Oleg",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.2.0"
+  }
+}
